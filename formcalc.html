@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculate</title>
+</head>
+<body>
+    <form action="" id="form-calc">
+        <h3>Количество спален</h3>
+            <input type="radio" id="badroom-1" value="1" name="bedrooms" >
+            <label for="badroom-1">1</label>
+
+            <input type="radio" id="badroom-2" value="2" name="bedrooms">
+            <label for="badroom-2">2</label>
+
+            <input type="radio" id="badroom-3" value="3" name="bedrooms">
+            <label for="badroom-3">3</label>
+
+            <input type="radio" id="badroom-4" value="4" name="bedrooms" >
+            <label for="badroom-4">4</label>
+
+            <input type="radio" id="badroom-5" value="5" name="bedrooms">
+            <label for="badroom-5">5</label>
+
+            <input type="radio" id="badroom-6" value="6" name="bedrooms">
+            <label for="badroom-6">6</label>
+
+        <h3>Количество ванных комнат</h3>
+            <input type="radio" id="bathroom-1" value="1" name="bathrooms">
+            <label for="bathroom-1">1</label>
+
+            <input type="radio" id="bathroom-2" value="2" name="bathrooms">
+            <label for="bathroom-2">2</label>
+
+            <input type="radio" id="bathroom-3" value="3" name="bathrooms">
+            <label for="bathroom-3">3</label>
+
+            <input type="radio" id="bathroom-4" value="4" name="bathrooms">
+            <label for="bathroom-4">4</label>
+
+            <input type="radio" id="bathroom-5" value="5" name="bathrooms">
+            <label for="bathroom-5">5</label>
+
+            <input type="radio" id="bathroom-6" value="6" name="bathrooms">
+            <label for="bathroom-6">6</label>
+
+        <h3>Степень загрязнения</h3>
+            <input type="radio" id="pollution-1" value="1" name="pollution" data-percent="0.75" >
+            <label for="pollution-1">Низкая</label>
+
+            <input type="radio" id="pollution-2" value="2" name="pollution" data-percent="1">
+            <label for="pollution-2">Средняя</label>
+
+            <input type="radio" id="pollution-3" value="3" name="pollution" data-percent="1.55">
+            <label for="pollution-3">Высокая</label>
+
+        <h3>Тип чистки</h3>
+            <input  type="radio" id="cleaning-1" value="1" name="cleaning" data-time-bedrooms="20" data-time-bathrooms="40" data-price="33">
+            <label  for="cleaning-1">Периодическая</label>
+
+            <input type="radio" id="cleaning-2" value="2" name="cleaning" data-time-bedrooms="45" data-time-bathrooms="85" data-price="40">
+            <label for="cleaning-2">Единоразовая</label>
+
+            <input type="radio" id="cleaning-3" value="3" name="cleaning" data-time-bedrooms="70" data-time-bathrooms="130" data-price="40">
+            <label for="cleaning-3">Конец аренды</label>
+
+            <h2>Оценка стоимости</h2>
+            <div id="cleaningTime">0 часов</div>
+
+            <h3>Цена за чистку</h3>
+            <div id="cleaningСost">$ 0</div>
+            
+            <button type="submit">Расчитать</button>
+            <div id="error"></div>
+    </form>
+    <script src="js/formcalc.js"></script>
+</body>
+</html>
