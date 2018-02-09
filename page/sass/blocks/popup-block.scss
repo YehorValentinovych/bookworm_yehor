@@ -1,0 +1,210 @@
+.popup_demo {
+
+}
+
+.popup_demo .overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fff;
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  background: rgba(255,255,255,.7);
+  text-align: center;
+  overflow: hidden;
+  }
+  .popup_demo .overlay:target {
+  visibility: visible;
+  opacity: 1;
+  z-index: 99999;
+  top: 0;
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  overflow: overlay;
+}
+
+.substrate {
+   width: 460px;
+   height: auto;
+   margin: 0 auto;
+   position: relative;
+   left: 20px;
+   top: 180px;
+   box-shadow: 0 5px 7px #8F8C8D;
+   background-color: white;
+}
+
+.popup {
+	position: relative;
+   top: -22px;
+   left: 50%;
+   margin-left: -20px;
+   transform: translate(-50%);
+   box-shadow: 0 7px 24px #8F8C8D;
+   width: 460px;
+   height: auto;
+   background: #fff;
+   vertical-align: middle;
+   overflow: hidden;
+   margin-bottom: 100px;
+}
+
+.wrap_popup {
+	margin: 75px 50px;
+}
+
+.popup .close {
+   text-decoration: none;
+   color: #555963;
+   float: right;
+   position: relative;
+   top: -50px;
+   right: -25px;
+}
+
+.popup h2 {
+	margin-top: 54px;
+	margin-bottom: 50px;
+	color: #555963;
+	font-family: Ramaraja, sans-serif;
+	font-size: 42px;
+	line-height: 32px;
+	font-weight: 400;
+	text-align: center;
+}
+
+.popup .content {
+	width: 100%;
+}
+.input_popup {
+	display: inline-block;
+   width: 100%;
+   color: #959ba1;
+}
+
+.input_popup input {
+    color: #959ba1;
+    outline: none;
+    font-size: 16px;
+    font-family: Lato, regular;
+    width: 100%;
+    height: 30px;
+    padding: 30px 0;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid gray;
+}
+.input_popup input:hover, .input_popup input:active, .input_popup input:focus {
+	border-bottom: 2px solid #ffbb58;
+}
+.remember_me {
+	float: left;
+}
+.remember_me .checkbox:not(checked) {
+	position: absolute;
+   opacity: 0;
+}
+.popup .content .remember_me .checkbox:not(checked) + label {
+    position: relative;
+    padding: 3px 0 0 35px;
+    font-size: 16px;
+    font-family: Lato;
+    font-weight: regular;
+    color: #45474b;
+}
+.popup .content .remember_me label {
+    cursor: pointer;
+    color: #45474b;
+}
+.content .remember_me .checkbox:not(checked) + label:hover {
+    color: #ffbb58;
+}
+.popup .content .remember_me .checkbox:checked + label:before {
+    content: '';
+    background-image: url("../../images/check.png");
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: 2px;
+    top: 5px;
+    background-repeat: no-repeat;
+}
+.popup .content .remember_me .checkbox:not(checked) + label:after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 17px;
+    height: 17px;
+    border: 2px solid #45474b;
+    border-radius: 0;
+    background: transparent;
+    transition: all .2s;
+}
+.forgot_password {
+	float: right;
+	text-decoration: none;
+  color: #45474b;
+  font-size: 16px;
+  font-family: Lato;
+  font-weight: regular;
+}
+.forgot_password:hover {
+	color: #ffbb58;
+}
+.clearfix {
+  clear: both;
+}
+
+.popup_button {
+	margin-top: 50px;
+	margin-bottom: 92px;
+  font-size: 16px;
+  font-family: Lato, sans-serif;
+  background-color: #fff;
+  color: #45474b;
+  border: 2px solid #45474b;
+  cursor: pointer;
+  text-align: center;
+  padding: 10px 70px;
+}
+.popup_button:hover {
+	background-color: rgba(255, 187, 88, 0.6);
+	border: 2px solid #ffbb58;
+}
+.create_account_popup {
+	text-decoration: none;
+  color: #45474b;
+  font-size: 16px;
+  font-family: Lato, sans-serif;
+	padding: 10px 21px;
+	border-bottom: 2px solid #45474b;
+	margin-bottom: 30px;
+}
+.create_account_popup img {
+	position: relative;
+  top: 2px;
+  left: 5px;
+}
+.create_account_popup:hover {
+	border-bottom: 2px solid #ffbb58;
+}
+.popup_hr {
+	margin: 60px 0;
+}
+.popup h3 {
+	font-family: Ramaraja;
+	font-size: 21px;
+	font-weight: 23px;
+	color: #555963;
+}
+.links_popup {
+	display: inline-block;
+  margin: 15px 10px 50px 10px;
+}

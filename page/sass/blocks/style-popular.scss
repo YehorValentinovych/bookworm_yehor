@@ -1,0 +1,90 @@
+.popular {
+	width: 100%;
+	min-height: 250px;
+	height: auto;
+   margin-bottom: 109px;
+}
+
+.popular .popular_book {
+	float: left;
+   width: 535px;
+   height: 205px;
+	background-color: #F2FDFF;
+}
+
+.popular_book .title_popular {
+	padding: 35px 34px 24px 34px;
+	font-size: 28px;
+	font-family: Ramaraja, serif;
+	color: #555963;
+}
+
+.title_popular .author_popular {
+	display: inline-block;
+	padding-right: 30px;
+	font-size: 18px;
+	font-family: Amiri, regular;
+	color: #eaad54;
+}
+
+.popular_book .popular_book_img {
+	display: inline-block;
+   position: relative;
+   top: -142px;
+   left: 330px;
+   z-index: 2;
+}
+
+.popular .popular_theme {
+	float: right;
+	width: 535px;
+	height: 205px;
+	background-color: #F2FDFF;
+}
+
+.popular_theme .title_popular_theme {
+	margin: 40px 34px;
+	font-size: 28px;
+	line-height: 30px;
+	// font-family: ;
+	color: #555963;
+}
+
+.popular_theme .popular_theme_img {
+	display: inline-block;
+   position: relative;
+   top: -175px;
+   left: 310px;
+   z-index: 2;
+}
+
+@media (max-width: 1350px) {
+	.popular .popular_book {
+   	width: 45%;
+   	margin-right: 80px;
+	}
+
+	.popular .popular_theme {
+		width: 45%;
+	}
+
+}
+
+@media (max-width: 1100px) {
+	.popular {
+		min-height: 520px;
+	}
+
+	.popular .popular_book {
+   	display: block;
+   	width: 60%;
+   	margin-bottom: 80px;
+	}
+
+	.popular .popular_theme {
+   	display: block;
+   	width: 60%;
+   	margin: 0 auto;
+	}
+
+}

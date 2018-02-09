@@ -1,0 +1,139 @@
+// .wrap {
+// 	width: 100%;
+// 	padding: 0 8%;
+// }
+
+// .wrap h2 {
+// 	padding-top: 227px;
+// 	text-align: center;
+// 	font-size: 42px;
+// 	font-family: 'Ramaraja', serif;
+// 	color: #555963;
+// 	margin-bottom: 65px;
+// }
+
+// .clearfix {
+//     clear: both;
+// }
+// .clearfix-visible {
+//     content: "";
+//     display: table;
+//     clear: both;
+//     width: 100%;
+//     height: 10px;
+// }
+
+.sitebar {
+	width: 256px;
+	float: left;
+	display: block;
+}
+
+.sitebar nav.category {
+	display: block;
+}
+
+.sitebar nav.category ul {
+	list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+ .sitebar nav.category li {
+	height: auto;
+	padding: 0 29px;
+	color: #555963;
+}
+
+.sitebar nav.category li:hover {
+   /*background-color: #ffbb58;*/
+}
+
+.sitebar .category .menu a {
+	text-decoration: none;
+   font-family: 'Lato';
+   font-style: bold;
+   font-size: 16px;
+   color: #555963;
+   background-color: transparent;
+   font-variant: regular;
+	display:block;
+	padding:0 0px;
+	line-height: 40px;
+}
+
+.sitebar .category .menu a:hover {
+    color: #555963;
+    background-color: rgba(255,187,88,.6);
+    text-decoration: none;
+ }
+ .sitebar .category .menu a:link {
+    color: #555963;
+    text-decoration: none;
+ }
+ .sitebar .category .menu a:focus {
+ 	 color: #555963;
+    background-color: #ffbb58;
+    text-decoration: none;
+ }
+
+.sitebar hr {
+	display: block;
+	margin: 60px 20px;
+	height: 1.5px;
+	border: none;
+	background-color: #ECECED;
+}
+
+.sitebar .pop-writers {
+	padding: 0 0 0 29px;
+}
+
+.sitebar .pop-writers h3 {
+	text-align: left;
+	font-size: 28px;
+	font-family: Ramaraja, serif;
+	color: #555963;
+	margin-bottom: 32px;	
+}
+
+.pop-writers .writers {
+	margin-bottom: 24px;
+	font-size: 12px;
+	font-family: Lato, serif;
+	color: #a8a8a8;
+}
+
+.pop-writers .writers img {
+	position: relative;
+	top: -7px;
+	float: left;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	margin: 6px 18px 0 0;
+}
+
+.pop-writers .writers a {
+	text-decoration: none;
+	display: block;
+	font-size: 16px;
+	font-family: Amiri, serif;
+	color: #dd9327;
+	vertical-align: top;
+}
+.pop-writers .writers a:hover {
+	color: rgba(255,187,88,.9);
+}
+
+.pop-writers .writers p {
+	margin-top: 5px;
+	font-size: 12px;
+	font-family: Lato, serif;
+	color: #a8a8a8;
+}
+@media (max-width: 1000px) {
+	.sitebar {
+		width: 235px;
+	}
+}
