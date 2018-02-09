@@ -1,0 +1,319 @@
+.wrapper_table {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+table {
+	width:100%;
+	text-align:center;
+	border-collapse:collapse;
+	padding-top: 200px;
+}
+
+th {
+	padding: 8px 5px;
+	color: #555963;
+	font-family: Ramaraja;
+	font-size: 18px;
+	line-height: 23px;
+	text-align: left;
+	font-weight: normal;
+	background: white;
+}
+
+tbody tr {
+	border-bottom: 20px solid white;
+   background-color: #F5FDFF;
+}
+
+table tr:hover {
+   background-color: #DDF9FF;
+}
+
+.table_header {
+   font-family: Ramaraja, serif;
+   font-size: 18px;
+   color: #555963;
+   border-bottom: 20px solid transparent;
+}
+
+.table_header .quantily {
+	text-align: center;
+}
+
+td {
+   font-family: Lato, regular;
+	font-size: 15px;
+	line-height: 32px;
+	color: #555963; 
+}
+
+td a {
+	text-decoration: none;
+}
+
+.delete {
+	width: 4.1%;
+}
+
+.delete img {
+   display: block;
+   min-width: 13px;
+   margin: 0 auto;
+}
+
+.product {
+	padding: 0;
+	width: 60px;
+	padding-left: 5px;
+}
+
+.product img {
+	padding: 25px 0 24px 0;
+}
+
+.name_book {
+	padding-left: 19px;
+   min-width: 145px;
+   width: 30%;
+   padding-right: 10px;
+   vertical-align: top;
+   text-align: left;
+}
+
+.name_book a {
+	text-decoration: none;
+	display: block;
+	font-family: Ramaraja;
+   font-size: 19px;
+   line-height: 21px;
+   color: #45474b;
+   position: relative;
+   top: 25px;
+}
+
+.name_book a:hover {
+	color: rgba(255, 187, 88, 0.9);
+}
+
+td p.name_author {
+	font-family: Amiri, regular;
+   font-size: 15px;
+   line-height: 23px;
+   color: #dd9327;
+   position: relative;
+   top: 25px;
+}
+
+.format {
+	width: 25%;
+	padding: 0 10px;
+	text-align: left;
+}
+
+.language {
+	padding: 0 10px;
+	width: 15%;
+	text-align: left;
+}
+
+.quantily {
+	width: 15%;
+	min-width: 83px;
+}
+
+.goods-count {
+	text-align: center;
+	font-size: 25px;
+	font-family: Yrsa;
+
+-moz-user-select: none;
+-khtml-user-select: none;
+user-select: none;
+}
+
+span.amount {
+    cursor: pointer;
+    padding: 10px;
+    width: 16px;
+}
+
+.down {
+	font-size: 30px;
+   position: relative;
+   top: 2px;
+}
+
+.up {
+	font-size: 30px;
+   position: relative;
+   top: 2px;
+}
+
+.price {
+	text-align: right;
+	padding-right: 27px;
+	width: 10%;
+}
+
+.goods-price, .sum {
+	font-size: 25px;
+	font-family: Yrsa;
+	font-style: medium;
+}
+
+.quantily input.counter,
+.quantily input.counter2,
+.quantily input.counter3 {
+    border: none;
+    background-color: transparent;
+    width: 30px;
+    text-align: center;
+    font-family: Yrsa, serif;
+    font-size: 25px;
+    color: #555963;
+}
+
+.wrap_buttom_form {
+	width: 100%;
+	height: auto;
+	margin: 100px 0;
+}
+
+.wrap_buttom_form .wrap_coupon {
+
+}
+
+.wrap_buttom_form .coupon_code {
+	float: left;
+	width: 35%;
+
+}
+
+.coupon_form {
+   border-bottom: 2px solid #555963;
+   padding: 10px 0;
+ }
+
+.coupon_form input#coupon {
+    background-color: transparent;
+    outline: none;
+    width: 66%;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Lato, sans-serif;
+    color: #da8913;
+    border: none;
+}
+
+.coupon_form:hover, .coupon_form:focus, .coupon_form:active {
+	border-bottom: 2px solid #ffbb58;
+}
+
+.coupon_button {
+    float: right;
+    width: 34%;
+    font-size: 16px;
+    font-family: Lato, sans-serif;
+    background-color: transparent;
+    color: #45474b;
+    border: none;
+    border-left: 1px solid;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.coupon_button:hover, .coupon_button:active, .coupon_button:focus{
+	outline: none;
+	color: #ffbb58;
+}
+
+.coupon_button img{
+	margin-left: 15px;
+}
+
+.coupon_code p {
+	margin: 50px 0;
+	font-size: 19px;
+	font-family: Yrsa;
+	font-variant: regular;
+	color: #555963;
+}
+
+.wrap_total_cost {
+	width: 40%;
+	min-width: 215px;
+	float: right;
+}
+
+.wrap_table_total {
+	width: 40%;
+	float: left;
+	margin-top: 10px;
+}
+
+.wrap_table_total table tr {
+	background-color: transparent;
+}
+
+.wrap_table_total .subtotal_block {
+	font-family: Ramaraja;
+	font-size: 21px;
+	color: #45474b;
+}
+
+.wrap_table_total .subtotal_cost {
+	font-family: Yrsa;
+	font-size: 25px;
+	color: #555963;
+}
+
+.wrap_table_total .total_block {
+	font-family: Ramaraja;
+	font-size: 28px;
+	color: #45474b;
+}
+
+.wrap_table_total .total_cost {
+	font-family: Yrsa;
+	font-size: 31px;
+	color: #555963;
+}
+
+.wrap_total_cost .checkout_bottom {
+	width: 40%;
+	height: 40px;
+	border: 2px solid #45474b;
+	background-color: transparent;
+	font-family: Lato;
+	font-size: 16px;
+	color: #45474b;
+	float: right;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.wrap_total_cost .checkout_bottom:hover {
+	border: 2px solid #ffbb58;
+	background-color: rgba(255, 187, 88, 0.6);
+}
+
+@media (max-width: 1060px) {
+	.wrap_buttom_form .coupon_code {
+		min-width: 230px;
+	}
+
+	.coupon_form {
+   	min-width: 230px;
+   	width: 100%;
+   }
+
+   .coupon_form input#coupon {
+		width: 59%;
+   }
+
+	.coupon_button {
+    width: 41%;
+    max-height: 19px;
+    padding-left: 8%;}
+}

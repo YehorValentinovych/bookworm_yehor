@@ -1,0 +1,132 @@
+.book	{
+	background-color: #F2FDFF;
+	width: 100%;
+	max-width: 1920px;
+	height: 1048px; /* поставить авто */
+	margin-bottom: 20px;
+}
+
+.cover_left{
+   position: absolute;
+   max-width: 800px;
+   max-height: 1050px;
+}
+
+.book .background_book {
+   position: relative;
+   top: 220px;
+   left: 111px;
+   z-index: 1;
+}
+
+.book .cover_left .cover {
+	display: inline-block;
+   position: relative;
+   cursor: default;
+   top: -440px;
+   left: 150px;
+   z-index: 2;
+}
+
+.book .genre {
+	display: inline-block;
+	width: 100px;
+	height: 36px;
+	background-color: white;
+	border: 2px solid #dd9327;
+	font-size: 16px;
+	font-family: Lato, regular;
+	text-align: center;
+   position: relative;
+   top: -1095px;
+   left: 25px;
+   padding: 5px 8px;
+   z-index: 3;
+}
+
+.cover_right {
+	float: right;
+   width: 50%;
+   min-width: 660px;
+   padding-right: 100px;
+}
+
+.title_cover {
+	font-family: Ramaraja, serif;
+	padding-top: 350px;
+	text-align: left;
+	padding-bottom: 38px;
+   font-size: 57px;
+   line-height: 58px;
+   color: #555963;
+}
+
+.author_cover {
+	text-decoration: none;
+	font-family: Amiri, regular;
+	display: inline-block;
+	padding-right: 30px;
+	font-size: 21px;
+	color: #da8913;
+}
+.author_cover:hover {
+	color: rgba(255,187,88,.9);
+}
+
+.rating {
+	display: inline-block;
+	padding-left: 30px;
+	border-left: 1px solid #555963;
+}
+
+.rating p {
+	display: inline-block;
+	font-size: 17px;
+	padding-right: 8px;
+	color: #555963;
+}
+
+.rating img {
+	float: right;
+}
+
+.short_description {
+	font-family: Yrsa, regular;
+	width: 80%;
+	margin-top: 54px;
+	margin-bottom: 81px;
+	font-size: 23px;
+	line-height: 32px;
+	color: #555963;
+}
+
+.price {
+	font-size: 38px;
+	font-family: Yrsa, medium;
+	box-sizing: border-box;
+	color: #555963;
+	margin: 0;
+	padding: 0;
+}
+
+@media (max-width: 1600px) {
+	.cover_right {
+	   padding-right: 50px;
+	}
+}
+
+@media (max-width: 1300px) {
+	.cover_right {
+	   width: 40%;
+	   min-width: 400px;
+	   padding-right: 50px;
+	}
+}
+
+@media (max-width: 1100px) {
+	.cover_right {
+	   width: 35%;
+	   min-width: 350px;
+	   padding-right: 0;
+	}
+}
