@@ -215,6 +215,8 @@ a.prev:hover,a.next:hover {
 
 .rating img {
 	float: right;
+	position: relative;
+	top: -3px;
 }
 
 .short_description {

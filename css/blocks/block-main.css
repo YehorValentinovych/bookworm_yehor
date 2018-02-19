@@ -701,9 +701,11 @@ a.prev:hover, a.next:hover {
 /* line 216, ../../sass/blocks/style-css-slyder.scss */
 .rating img {
   float: right;
+  position: relative;
+  top: -3px;
 }
 
-/* line 220, ../../sass/blocks/style-css-slyder.scss */
+/* line 222, ../../sass/blocks/style-css-slyder.scss */
 .short_description {
   font-family: Yrsa, regular;
   width: 80%;
@@ -714,7 +716,7 @@ a.prev:hover, a.next:hover {
   color: #555963;
 }
 
-/* line 230, ../../sass/blocks/style-css-slyder.scss */
+/* line 232, ../../sass/blocks/style-css-slyder.scss */
 .price {
   font-size: 38px;
   font-family: Yrsa, medium;
@@ -725,13 +727,13 @@ a.prev:hover, a.next:hover {
 }
 
 @media (max-width: 1600px) {
-  /* line 240, ../../sass/blocks/style-css-slyder.scss */
+  /* line 242, ../../sass/blocks/style-css-slyder.scss */
   .cover_right {
     padding-right: 50px;
   }
 }
 @media (max-width: 1300px) {
-  /* line 246, ../../sass/blocks/style-css-slyder.scss */
+  /* line 248, ../../sass/blocks/style-css-slyder.scss */
   .cover_right {
     width: 40%;
     min-width: 400px;
@@ -739,7 +741,7 @@ a.prev:hover, a.next:hover {
   }
 }
 @media (max-width: 1100px) {
-  /* line 254, ../../sass/blocks/style-css-slyder.scss */
+  /* line 256, ../../sass/blocks/style-css-slyder.scss */
   .cover_right {
     width: 35%;
     min-width: 350px;
