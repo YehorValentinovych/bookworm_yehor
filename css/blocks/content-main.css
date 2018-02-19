@@ -30,6 +30,7 @@ img {
 /* line 26, ../../sass/blocks/content-main.scss */
 .conteiner {
   width: 100%;
+  margin-top: 157px;
   padding: 0 8%;
   background-color: white;
 }
