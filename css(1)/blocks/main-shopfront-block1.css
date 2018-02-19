@@ -43,15 +43,14 @@
   font-family: Lato, regular;
   font-size: 16px;
   color: #BFBFBF;
-  float: left;
 }
 
-/* line 46, ../../sass/blocks/main-shopfront-block1.scss */
+/* line 45, ../../sass/blocks/main-shopfront-block1.scss */
 .shopfront .navigation a:hover {
   color: #555963;
 }
 
-/* line 50, ../../sass/blocks/main-shopfront-block1.scss */
+/* line 49, ../../sass/blocks/main-shopfront-block1.scss */
 .icon_select_mate {
   position: absolute;
   top: 13px;
@@ -60,7 +59,7 @@
   height: 22px;
 }
 
-/* line 59, ../../sass/blocks/main-shopfront-block1.scss */
+/* line 58, ../../sass/blocks/main-shopfront-block1.scss */
 .select_mate {
   float: right;
   text-align: left;
@@ -79,7 +78,7 @@
   transition: all 200ms ease-in-out;
   /* Oculto el elemento select */
 }
-/* line 76, ../../sass/blocks/main-shopfront-block1.scss */
+/* line 75, ../../sass/blocks/main-shopfront-block1.scss */
 .select_mate select {
   position: absolute;
   overflow: hidden;
@@ -87,19 +86,19 @@
   opacity: 0;
   z-index: -1;
 }
-/* line 83, ../../sass/blocks/main-shopfront-block1.scss */
+/* line 82, ../../sass/blocks/main-shopfront-block1.scss */
 .select_mate:hover {
   border-bottom: 1.5px solid #ffbb58;
 }
 
-/* line 88, ../../sass/blocks/main-shopfront-block1.scss */
+/* line 87, ../../sass/blocks/main-shopfront-block1.scss */
 .cont_list_select_mate {
   position: relative;
   float: left;
   width: 100%;
 }
 
-/* line 94, ../../sass/blocks/main-shopfront-block1.scss */
+/* line 93, ../../sass/blocks/main-shopfront-block1.scss */
 .cont_select_int {
   position: absolute;
   left: 0px;
@@ -116,7 +115,7 @@
   box-shadow: 1px 4px 10px -2px rgba(0, 0, 0, 0.2);
   transition: all 375ms ease-in-out;
 }
-/* line 110, ../../sass/blocks/main-shopfront-block1.scss */
+/* line 109, ../../sass/blocks/main-shopfront-block1.scss */
 .cont_select_int li {
   position: relative;
   float: left;
@@ -130,22 +129,22 @@
   display: block;
   cursor: pointer;
 }
-/* line 123, ../../sass/blocks/main-shopfront-block1.scss */
+/* line 122, ../../sass/blocks/main-shopfront-block1.scss */
 .cont_select_int li:last-child {
   border-radius: 3px;
   border-bottom: 0px;
 }
-/* line 128, ../../sass/blocks/main-shopfront-block1.scss */
+/* line 127, ../../sass/blocks/main-shopfront-block1.scss */
 .cont_select_int li:hover {
   background-color: rgba(255, 187, 88, 0.6);
 }
-/* line 133, ../../sass/blocks/main-shopfront-block1.scss */
+/* line 132, ../../sass/blocks/main-shopfront-block1.scss */
 .cont_select_int .active {
   background-color: #ffbb58;
 }
 
 /* etiqueta <p> con la opcion selecionada  */
-/* line 140, ../../sass/blocks/main-shopfront-block1.scss */
+/* line 139, ../../sass/blocks/main-shopfront-block1.scss */
 .selecionado_opcion {
   padding: 13px 2%;
   width: 96%;
@@ -154,12 +153,12 @@
   cursor: pointer;
 }
 
-/* line 148, ../../sass/blocks/main-shopfront-block1.scss */
+/* line 147, ../../sass/blocks/main-shopfront-block1.scss */
 .shopfront_books {
   display: inline-block;
 }
 
-/* line 152, ../../sass/blocks/main-shopfront-block1.scss */
+/* line 151, ../../sass/blocks/main-shopfront-block1.scss */
 .books {
   width: calc(100% / 6 - 42px);
   display: inline-block;
@@ -170,12 +169,12 @@
   cursor: pointer;
 }
 
-/* line 161, ../../sass/blocks/main-shopfront-block1.scss */
+/* line 160, ../../sass/blocks/main-shopfront-block1.scss */
 .books:nth-child(6n) {
   margin-right: 0;
 }
 
-/* line 165, ../../sass/blocks/main-shopfront-block1.scss */
+/* line 164, ../../sass/blocks/main-shopfront-block1.scss */
 figure {
   width: 100%;
   height: auto;
@@ -184,13 +183,13 @@ figure {
   position: relative;
 }
 
-/* line 173, ../../sass/blocks/main-shopfront-block1.scss */
+/* line 172, ../../sass/blocks/main-shopfront-block1.scss */
 figure img {
   width: 100%;
   height: auto;
 }
 
-/* line 178, ../../sass/blocks/main-shopfront-block1.scss */
+/* line 177, ../../sass/blocks/main-shopfront-block1.scss */
 figcaption {
   position: absolute;
   top: 0;
@@ -206,7 +205,7 @@ figcaption {
   letter-spacing: 3px;
 }
 
-/* line 193, ../../sass/blocks/main-shopfront-block1.scss */
+/* line 192, ../../sass/blocks/main-shopfront-block1.scss */
 figcaption a {
   font-family: Yrsa;
   font-size: 23px;
@@ -218,12 +217,12 @@ figcaption a {
   text-decoration: none;
 }
 
-/* line 204, ../../sass/blocks/main-shopfront-block1.scss */
+/* line 203, ../../sass/blocks/main-shopfront-block1.scss */
 figcaption a:hover {
   color: #fff;
 }
 
-/* line 208, ../../sass/blocks/main-shopfront-block1.scss */
+/* line 207, ../../sass/blocks/main-shopfront-block1.scss */
 figcaption .look {
   position: relative;
   top: 20px;
@@ -235,13 +234,13 @@ figcaption .look {
   border-radius: 50%;
 }
 
-/* line 219, ../../sass/blocks/main-shopfront-block1.scss */
+/* line 218, ../../sass/blocks/main-shopfront-block1.scss */
 figcaption .look img {
   padding: 15px;
   max-width: 80%;
 }
 
-/* line 224, ../../sass/blocks/main-shopfront-block1.scss */
+/* line 223, ../../sass/blocks/main-shopfront-block1.scss */
 figcaption .save {
   position: relative;
   display: block;
@@ -255,14 +254,14 @@ figcaption .save {
   max-height: 80px;
 }
 
-/* line 237, ../../sass/blocks/main-shopfront-block1.scss */
+/* line 236, ../../sass/blocks/main-shopfront-block1.scss */
 figcaption .save img {
   padding: 15px;
   max-width: 80%;
   max-height: 70px;
 }
 
-/* line 243, ../../sass/blocks/main-shopfront-block1.scss */
+/* line 242, ../../sass/blocks/main-shopfront-block1.scss */
 figcaption .buy {
   position: relative;
   display: block;
@@ -275,25 +274,25 @@ figcaption .buy {
   border-radius: 50%;
 }
 
-/* line 255, ../../sass/blocks/main-shopfront-block1.scss */
+/* line 254, ../../sass/blocks/main-shopfront-block1.scss */
 figcaption .buy img {
   padding: 15px;
   max-width: 80%;
 }
 
-/* line 260, ../../sass/blocks/main-shopfront-block1.scss */
+/* line 259, ../../sass/blocks/main-shopfront-block1.scss */
 figcaption .look:hover,
 figcaption .save:hover,
 figcaption .buy:hover {
   border: 2px solid #fff;
 }
 
-/* line 266, ../../sass/blocks/main-shopfront-block1.scss */
+/* line 265, ../../sass/blocks/main-shopfront-block1.scss */
 figure:hover figcaption {
   opacity: 1;
 }
 
-/* line 270, ../../sass/blocks/main-shopfront-block1.scss */
+/* line 269, ../../sass/blocks/main-shopfront-block1.scss */
 .books_name {
   display: block;
   text-decoration: none;
@@ -303,12 +302,12 @@ figure:hover figcaption {
   padding: 10px 0;
 }
 
-/* line 278, ../../sass/blocks/main-shopfront-block1.scss */
+/* line 277, ../../sass/blocks/main-shopfront-block1.scss */
 .books_name:hover {
   color: rgba(255, 187, 88, 0.9);
 }
 
-/* line 282, ../../sass/blocks/main-shopfront-block1.scss */
+/* line 281, ../../sass/blocks/main-shopfront-block1.scss */
 .author_name {
   text-decoration: none;
   font-size: 16px;
@@ -317,12 +316,12 @@ figure:hover figcaption {
   padding: 10px 0;
 }
 
-/* line 289, ../../sass/blocks/main-shopfront-block1.scss */
+/* line 288, ../../sass/blocks/main-shopfront-block1.scss */
 .author_name:hover {
   color: rgba(255, 187, 88, 0.9);
 }
 
-/* line 293, ../../sass/blocks/main-shopfront-block1.scss */
+/* line 292, ../../sass/blocks/main-shopfront-block1.scss */
 .buttom_books {
   text-decoration: none;
   width: 200px;
@@ -336,58 +335,58 @@ figure:hover figcaption {
   border: 2px solid #555963;
 }
 
-/* line 306, ../../sass/blocks/main-shopfront-block1.scss */
+/* line 305, ../../sass/blocks/main-shopfront-block1.scss */
 .buttom_books:hover {
   background-color: rgba(255, 187, 88, 0.6);
   border-color: orange;
 }
 
 @media (max-width: 1100px) {
-  /* line 312, ../../sass/blocks/main-shopfront-block1.scss */
+  /* line 311, ../../sass/blocks/main-shopfront-block1.scss */
   .shopfront nav.navigation li {
     padding: 10px 13px 15px 13px;
   }
 
-  /* line 315, ../../sass/blocks/main-shopfront-block1.scss */
+  /* line 314, ../../sass/blocks/main-shopfront-block1.scss */
   .select_mate {
     width: 100px;
   }
 }
 @media (max-width: 1600px) {
-  /* line 321, ../../sass/blocks/main-shopfront-block1.scss */
+  /* line 320, ../../sass/blocks/main-shopfront-block1.scss */
   figcaption .buy {
     left: 25px;
   }
 
-  /* line 325, ../../sass/blocks/main-shopfront-block1.scss */
+  /* line 324, ../../sass/blocks/main-shopfront-block1.scss */
   figcaption .buy img {
     max-width: 90%;
   }
 }
 @media (max-width: 1350px) {
-  /* line 331, ../../sass/blocks/main-shopfront-block1.scss */
+  /* line 330, ../../sass/blocks/main-shopfront-block1.scss */
   figcaption .look,
   figcaption .save,
   figcaption .buy {
     top: 0;
   }
 
-  /* line 336, ../../sass/blocks/main-shopfront-block1.scss */
+  /* line 335, ../../sass/blocks/main-shopfront-block1.scss */
   figcaption .look {
     left: 0;
   }
 
-  /* line 339, ../../sass/blocks/main-shopfront-block1.scss */
+  /* line 338, ../../sass/blocks/main-shopfront-block1.scss */
   figcaption .save {
     left: 5px;
   }
 
-  /* line 342, ../../sass/blocks/main-shopfront-block1.scss */
+  /* line 341, ../../sass/blocks/main-shopfront-block1.scss */
   figcaption .buy {
     left: 20px;
   }
 
-  /* line 345, ../../sass/blocks/main-shopfront-block1.scss */
+  /* line 344, ../../sass/blocks/main-shopfront-block1.scss */
   figcaption .save img,
   figcaption .buy img {
     max-width: 90%;
@@ -395,7 +394,7 @@ figure:hover figcaption {
   }
 }
 @media (max-width: 1250px) {
-  /* line 352, ../../sass/blocks/main-shopfront-block1.scss */
+  /* line 351, ../../sass/blocks/main-shopfront-block1.scss */
   figcaption .save img,
   figcaption .buy img {
     margin-top: -5px;
@@ -403,7 +402,7 @@ figure:hover figcaption {
   }
 }
 @media (max-width: 1150px) {
-  /* line 360, ../../sass/blocks/main-shopfront-block1.scss */
+  /* line 359, ../../sass/blocks/main-shopfront-block1.scss */
   figcaption .look img,
   figcaption .save img,
   figcaption .buy img {
@@ -411,18 +410,18 @@ figure:hover figcaption {
   }
 }
 @media (max-width: 1100px) {
-  /* line 367, ../../sass/blocks/main-shopfront-block1.scss */
+  /* line 366, ../../sass/blocks/main-shopfront-block1.scss */
   figcaption .save {
     top: -10px;
   }
 
-  /* line 370, ../../sass/blocks/main-shopfront-block1.scss */
+  /* line 369, ../../sass/blocks/main-shopfront-block1.scss */
   figcaption .buy {
     left: 15px;
     top: -10px;
   }
 
-  /* line 374, ../../sass/blocks/main-shopfront-block1.scss */
+  /* line 373, ../../sass/blocks/main-shopfront-block1.scss */
   figcaption .buy img {
     max-width: 100%;
   }
